@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR_Management_System", "HR_Management_System\HR_Management_System.csproj", "{BD225AF9-678F-4BBA-B7C3-5CD02ABAE181}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{4AC0E4D2-788C-4E01-8093-BC8F0D93013B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{7BD90BBB-506F-4DA8-AA03-5176AC3A4430}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD225AF9-678F-4BBA-B7C3-5CD02ABAE181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD225AF9-678F-4BBA-B7C3-5CD02ABAE181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD225AF9-678F-4BBA-B7C3-5CD02ABAE181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD225AF9-678F-4BBA-B7C3-5CD02ABAE181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AC0E4D2-788C-4E01-8093-BC8F0D93013B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC0E4D2-788C-4E01-8093-BC8F0D93013B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC0E4D2-788C-4E01-8093-BC8F0D93013B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC0E4D2-788C-4E01-8093-BC8F0D93013B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD90BBB-506F-4DA8-AA03-5176AC3A4430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD90BBB-506F-4DA8-AA03-5176AC3A4430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD90BBB-506F-4DA8-AA03-5176AC3A4430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD90BBB-506F-4DA8-AA03-5176AC3A4430}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A01B7D73-F434-4C3B-9D11-304A17454022}
+	EndGlobalSection
+EndGlobal

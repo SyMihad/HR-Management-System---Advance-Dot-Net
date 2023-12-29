@@ -1,0 +1,6 @@
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\DAL\bin\Debug\DAL.dll
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\DAL\bin\Debug\DAL.pdb
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\DAL\obj\Debug\DAL.dll
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\DAL\obj\Debug\DAL.pdb
