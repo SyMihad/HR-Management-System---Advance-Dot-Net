@@ -7,3 +7,6 @@ E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Ma
 E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\BLL\obj\Debug\BLL.csproj.CopyComplete
 E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\BLL\obj\Debug\BLL.dll
 E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\BLL\obj\Debug\BLL.pdb
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\BLL\bin\Debug\EntityFramework.dll
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\BLL\bin\Debug\DAL.dll.config
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\BLL\bin\Debug\EntityFramework.xml

@@ -17,6 +17,21 @@ namespace DAL.Models
         public string Email { get; set; }
         [Required]
         public string Password { get; set; }
+        [Required]
+        public string Gender { get; set; }
+        [Required]
+        public DateTime DOB { get; set; }
+        [Required]
+        public string PhoneNum { get; set; }
+
+        public virtual ICollection<Authorization> Authorizations { get; set; }
+        public virtual ICollection<UserOrganizationTable> UserOrganizationTables { get; set; }
+
+        public User()
+        {
+            Authorizations = new List<Authorization>();
+            UserOrganizationTables = new List<UserOrganizationTable>();
+        }
 
     }
 }
