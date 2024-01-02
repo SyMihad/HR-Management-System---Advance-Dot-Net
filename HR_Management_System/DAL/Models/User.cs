@@ -26,11 +26,13 @@ namespace DAL.Models
 
         public virtual ICollection<Authorization> Authorizations { get; set; }
         public virtual ICollection<UserOrganizationTable> UserOrganizationTables { get; set; }
+        public virtual ICollection<UserJobTable> UserJobTables { get; set; }
 
         public User()
         {
             Authorizations = new List<Authorization>();
             UserOrganizationTables = new List<UserOrganizationTable>();
+            UserJobTables = new List<UserJobTable>();
         }
 
     }

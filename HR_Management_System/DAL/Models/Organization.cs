@@ -22,11 +22,13 @@ namespace DAL.Models
 
         public virtual ICollection<JobCategories> JobCategories { get; set; }
         public virtual ICollection<UserOrganizationTable> UserOrganizationTables { get; set; }
+        
 
         public Organization()
         {
             JobCategories = new List<JobCategories>();
             UserOrganizationTables = new List<UserOrganizationTable>();
+            
         }
     }
 }

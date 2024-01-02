@@ -52,7 +52,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DataAccessFactory.cs" />
     <Compile Include="HRContext.cs" />
+    <Compile Include="Interfaces\IAuth.cs" />
+    <Compile Include="Interfaces\IFilter.cs" />
+    <Compile Include="Interfaces\INoticeFilter.cs" />
+    <Compile Include="Interfaces\IRepo.cs" />
+    <Compile Include="Interfaces\IUserOrganization.cs" />
     <Compile Include="Migrations\202312292301155_initDB.cs" />
     <Compile Include="Migrations\202312292301155_initDB.designer.cs">
       <DependentUpon>202312292301155_initDB.cs</DependentUpon>
@@ -69,14 +75,57 @@
     <Compile Include="Migrations\202312302303047_basic-auth-Final.designer.cs">
       <DependentUpon>202312302303047_basic-auth-Final.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202312311950380_basic-auth-during-test.cs" />
+    <Compile Include="Migrations\202312311950380_basic-auth-during-test.designer.cs">
+      <DependentUpon>202312311950380_basic-auth-during-test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202312312109492_user-updated.cs" />
+    <Compile Include="Migrations\202312312109492_user-updated.designer.cs">
+      <DependentUpon>202312312109492_user-updated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202401011329052_user-job.cs" />
+    <Compile Include="Migrations\202401011329052_user-job.designer.cs">
+      <DependentUpon>202401011329052_user-job.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202401011847142_user-job2.cs" />
+    <Compile Include="Migrations\202401011847142_user-job2.designer.cs">
+      <DependentUpon>202401011847142_user-job2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202401012143038_jobtables2.cs" />
+    <Compile Include="Migrations\202401012143038_jobtables2.designer.cs">
+      <DependentUpon>202401012143038_jobtables2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202401020644250_notice.cs" />
+    <Compile Include="Migrations\202401020644250_notice.designer.cs">
+      <DependentUpon>202401020644250_notice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202401020744115_token.cs" />
+    <Compile Include="Migrations\202401020744115_token.designer.cs">
+      <DependentUpon>202401020744115_token.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Authorization.cs" />
+    <Compile Include="Models\JobApplications.cs" />
     <Compile Include="Models\JobCategories.cs" />
+    <Compile Include="Models\JobRequirments.cs" />
+    <Compile Include="Models\Notice.cs" />
     <Compile Include="Models\Organization.cs" />
+    <Compile Include="Models\Token.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\UserJobTable.cs" />
     <Compile Include="Models\UserOrganizationTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\AuthorizationRepo.cs" />
+    <Compile Include="Repos\JobApplicationRepo.cs" />
+    <Compile Include="Repos\JobCategoryRepo.cs" />
+    <Compile Include="Repos\JobRequirmentsRepo.cs" />
+    <Compile Include="Repos\NoticeRepo.cs" />
+    <Compile Include="Repos\OrganizationRepo.cs" />
+    <Compile Include="Repos\Repo.cs" />
+    <Compile Include="Repos\TokenRepo.cs" />
+    <Compile Include="Repos\UserJobTableRepo.cs" />
+    <Compile Include="Repos\UserOrganizationTableRepo.cs" />
+    <Compile Include="Repos\UserRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -94,6 +143,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202312302303047_basic-auth-Final.resx">
       <DependentUpon>202312302303047_basic-auth-Final.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202312311950380_basic-auth-during-test.resx">
+      <DependentUpon>202312311950380_basic-auth-during-test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202312312109492_user-updated.resx">
+      <DependentUpon>202312312109492_user-updated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401011329052_user-job.resx">
+      <DependentUpon>202401011329052_user-job.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401011847142_user-job2.resx">
+      <DependentUpon>202401011847142_user-job2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401012143038_jobtables2.resx">
+      <DependentUpon>202401012143038_jobtables2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401020644250_notice.resx">
+      <DependentUpon>202401020644250_notice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401020744115_token.resx">
+      <DependentUpon>202401020744115_token.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -67,3 +67,10 @@ E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Ma
 E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\HR_Management_System\obj\Debug\HR_Management_System.csproj.CopyComplete
 E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\HR_Management_System\obj\Debug\HR_Management_System.dll
 E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\HR_Management_System\obj\Debug\HR_Management_System.pdb
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\HR_Management_System\bin\AutoMapper.dll
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\HR_Management_System\bin\DAL.dll
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\HR_Management_System\bin\EntityFramework.dll
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\HR_Management_System\bin\AutoMapper.xml
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\HR_Management_System\bin\DAL.pdb
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\HR_Management_System\bin\DAL.dll.config
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\HR_Management_System\bin\EntityFramework.xml

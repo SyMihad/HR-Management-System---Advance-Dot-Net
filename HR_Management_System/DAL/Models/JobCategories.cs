@@ -18,5 +18,13 @@ namespace DAL.Models
         public int OrganizationID { get; set; }
 
         public virtual Organization Organization { get; set; }
+        public virtual ICollection<UserJobTable> UserJobTables { get; set; }
+        public virtual ICollection<JobRequirments> JobRequirments { get; set; }
+
+        public JobCategories()
+        {
+            UserJobTables = new List<UserJobTable>();
+            JobRequirments = new List<JobRequirments>();
+        }
     }
 }

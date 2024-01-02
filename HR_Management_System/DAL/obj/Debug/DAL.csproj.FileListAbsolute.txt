@@ -15,3 +15,10 @@ E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Ma
 E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\DAL\obj\Debug\DAL.Migrations.basicauth.resources
 E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\DAL\obj\Debug\DAL.Migrations.basicauth2.resources
 E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\DAL\obj\Debug\DAL.Migrations.basicauthFinal.resources
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\DAL\obj\Debug\DAL.Migrations.basicauthduringtest.resources
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\DAL\obj\Debug\DAL.Migrations.userupdated.resources
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\DAL\obj\Debug\DAL.Migrations.userjob.resources
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\DAL\obj\Debug\DAL.Migrations.userjob2.resources
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\DAL\obj\Debug\DAL.Migrations.jobtables2.resources
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\DAL\obj\Debug\DAL.Migrations.notice.resources
+E:\G\Coding\Advance Dot Net\Project\HR-Management-System---Advance-Dot-Net\HR_Management_System\DAL\obj\Debug\DAL.Migrations.token.resources
