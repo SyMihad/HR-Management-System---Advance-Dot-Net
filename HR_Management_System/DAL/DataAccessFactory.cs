@@ -96,5 +96,10 @@ namespace DAL
             return new UserRepo();
         }
 
+        public static IRepo<EncryptionTable, int, EncryptionTable> EncryptionTableData()
+        {
+            return new EncryptionTableRepo();
+        }
+
     }
 }

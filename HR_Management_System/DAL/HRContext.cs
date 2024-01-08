@@ -20,5 +20,6 @@ namespace DAL
         public DbSet<JobApplications> JobApplications { get; set; }
         public DbSet<Notice> Notice { get; set; }
         public DbSet<Token> Tokens { get; set; }
+        public DbSet<EncryptionTable> EncryptionTable { get; set; }
     }
 }

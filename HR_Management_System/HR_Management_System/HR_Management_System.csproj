@@ -85,10 +85,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Auth\EmployeeAccess.cs" />
     <Compile Include="Auth\Logged.cs" />
+    <Compile Include="Auth\ManagerAccess.cs" />
+    <Compile Include="Auth\SuperAdminAccess.cs" />
     <Compile Include="Controllers\AuthController.cs" />
     <Compile Include="Controllers\JobController.cs" />
     <Compile Include="Controllers\NoticeController.cs" />
+    <Compile Include="Controllers\SecureDocumentController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

@@ -47,6 +47,8 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="DTOs\AuthorizationDTO.cs" />
+    <Compile Include="DTOs\DecryptionDTO.cs" />
+    <Compile Include="DTOs\EncryptionTableDTO.cs" />
     <Compile Include="DTOs\JobApplicationDTO.cs" />
     <Compile Include="DTOs\JobCategoryDTO.cs" />
     <Compile Include="DTOs\JobRequirmentsDTO.cs" />
@@ -61,6 +63,7 @@
     <Compile Include="Services\AuthService.cs" />
     <Compile Include="Services\JobService.cs" />
     <Compile Include="Services\NoticeService.cs" />
+    <Compile Include="Services\SecureDocumentService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

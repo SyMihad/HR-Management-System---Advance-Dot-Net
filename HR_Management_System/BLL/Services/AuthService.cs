@@ -269,6 +269,42 @@ namespace BLL.Services
 
         }
 
+        public static bool IsAdmin(string tkey)
+        {
+            var extk = DataAccessFactory.TokenData().Read(tkey);
+            if (IsTokenValid(tkey))
+            {
+                bool isSuperAdmin = extk.User.Authorizations.Any(auth => auth.Role == "Super_Admin");
+
+                return isSuperAdmin;
+            }
+            return false;
+        }
+
+        public static bool IsManager(string tkey)
+        {
+            var extk = DataAccessFactory.TokenData().Read(tkey);
+            if (IsTokenValid(tkey))
+            {
+                bool isSuperAdmin = extk.User.Authorizations.Any(auth => auth.Role == "Manager");
+
+                return isSuperAdmin;
+            }
+            return false;
+        }
+
+        public static bool IsEmployee(string tkey)
+        {
+            var extk = DataAccessFactory.TokenData().Read(tkey);
+            if (IsTokenValid(tkey))
+            {
+                bool isSuperAdmin = extk.User.Authorizations.Any(auth => auth.Role == "Employee");
+
+                return isSuperAdmin;
+            }
+            return false;
+        }
+
 
     }
 }

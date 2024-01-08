@@ -103,8 +103,13 @@
     <Compile Include="Migrations\202401020744115_token.designer.cs">
       <DependentUpon>202401020744115_token.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202401022214541_encryption.cs" />
+    <Compile Include="Migrations\202401022214541_encryption.designer.cs">
+      <DependentUpon>202401022214541_encryption.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Authorization.cs" />
+    <Compile Include="Models\EncryptionTable.cs" />
     <Compile Include="Models\JobApplications.cs" />
     <Compile Include="Models\JobCategories.cs" />
     <Compile Include="Models\JobRequirments.cs" />
@@ -116,6 +121,7 @@
     <Compile Include="Models\UserOrganizationTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\AuthorizationRepo.cs" />
+    <Compile Include="Repos\EncryptionTableRepo.cs" />
     <Compile Include="Repos\JobApplicationRepo.cs" />
     <Compile Include="Repos\JobCategoryRepo.cs" />
     <Compile Include="Repos\JobRequirmentsRepo.cs" />
@@ -164,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202401020744115_token.resx">
       <DependentUpon>202401020744115_token.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401022214541_encryption.resx">
+      <DependentUpon>202401022214541_encryption.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
